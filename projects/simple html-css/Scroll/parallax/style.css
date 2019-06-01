@@ -1,3 +1,24 @@
 html, body{
     height: 100%;
+    margin: 0;
+}
+
+
+.img1, .img2, .img3{
+position: relative;
+}
+
+.image1 {
+    background-image: url("images/img1.jpeg");
+    min-height: 100%;
+}
+
+.image2 {
+    background-image: url("images/img2.jpeg");
+    min-height: 400px;
+}
+
+.image3 {
+    background-image: url("images/img3.jpeg");
+    min-height: 400px;
 }
