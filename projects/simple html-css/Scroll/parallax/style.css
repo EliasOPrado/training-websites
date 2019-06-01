@@ -1,11 +1,13 @@
 html, body{
     height: 100%;
     text-align: center;
+    margin: 0 0;
+}
+
+h2{   /*this command will remove white space between divs*/
     margin: 0;
     padding: 0;
 }
-
-
 .image1, .image2, .image3{
 position: relative;
 background-attachment: fixed;
@@ -18,7 +20,7 @@ background-repeat: no-repeat;
 .image1 {
     background-image: url("images/img1.jpeg");
     min-height: 100%;
-    margin-top: 0;
+    margin-top: 0; 
 }
 
 .image2 {
@@ -33,4 +35,10 @@ background-repeat: no-repeat;
 
 .text{
     padding: 50px 80px;
+    
+}
+
+.bright{
+    background-color: #4f97a3;
+    color: #fff;
 }
