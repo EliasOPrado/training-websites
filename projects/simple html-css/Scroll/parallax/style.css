@@ -2,11 +2,26 @@ html, body{
     height: 100%;
     text-align: center;
     margin: 0 0;
+    font-family:"Lato",
+    sans-serif;
 }
 
 h2{   /*this command will remove white space between divs*/
     margin: 0;
     padding: 0;
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    font-family: cursive;
+}
+
+h3{
+
 }
 .image1, .image2, .image3{
 position: relative;
@@ -41,4 +56,13 @@ background-repeat: no-repeat;
 .bright{
     background-color: #4f97a3;
     color: #fff;
+}
+
+@media(max-width:568px) {
+
+    .image1,
+    .image2,
+    .image3 {
+        background-attachment: scroll;
+    }
 }
