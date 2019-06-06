@@ -12,9 +12,15 @@ body {
     height: 200px;
 }
 
+.col-md-9,
+.col-md-3,
 .col-md-12,
 .col-md-4 {
    border: 2px solid red;
    height: 200px;    
 } 
 
+.col-md-9,
+.col-md-3 {
+    height:500px;
+}
