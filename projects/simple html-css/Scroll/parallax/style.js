@@ -7,4 +7,8 @@ $(document).ready(function(){
         $('.text').show("fast");
         $("p").show("slow");
     });
+
+    $('.text2').fadeOut(500);
+    $('text2').fadeIn(1500);
+    
 });
